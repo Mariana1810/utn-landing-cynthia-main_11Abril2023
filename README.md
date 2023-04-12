@@ -6,3 +6,5 @@ en fin, no se porqeu me numera los renglones, tal vez tenia que enumerar los pas
 los invite a mi epositorio, ja! si estan leyendo esto es porque llegaron ....
 casi las3 de la mañana me voy
 Mariana (con firma y todo)
+
+Agrego comentarios a ver si funciona!!
