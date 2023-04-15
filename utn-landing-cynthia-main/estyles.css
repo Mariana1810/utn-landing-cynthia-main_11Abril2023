@@ -196,23 +196,31 @@ h4 {
 
 /* Fin de Mariana*/
 /*Comienzan Estilos Cynthia*/
-.cuentanNuestrosAlumnos{
+.alumnos{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-  margin: 100px 0;
+  align-items: start;
 }
+ 
 .cuentanNuestrosAlumnos{
   width: 75%;
   
 }
 
-h5 {
+h5 { 
+  text-align: center;
   padding: 50px;
 }
-.datos {
-  padding: 30px;
+.btn-cyn{
+  border-color: #405B73;
+  background-color: #405B73;
+  border-radius: 10px; /* Define el radio de los bordes */
+  padding: 10px 20px; /* Define el espacio interno del botón */
+  color: white; /* Define el color del texto del botón */
+  border: none; /* Elimina el borde del botón */
+  cursor: pointer;
 }
+ 
 footer a i {
   padding: 30px;
   margin: 30px;
