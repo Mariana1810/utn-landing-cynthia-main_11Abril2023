@@ -191,6 +191,17 @@ h4 {
 }
 
 /* Fin de Mariana*/
+/*Comienzan Estilos Cynthia*/
+.cuentanNuestrosAlumnos{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin: 100px 0;
+}
+.cuentanNuestrosAlumnos{
+  width: 75%;
+  
+}
 
 h5 {
   padding: 50px;
