@@ -17,23 +17,22 @@ body {
 
 /* ESTILOS MENU *
 /* Comentado por Ale. */
-/* Vean lo siguiente la etiqueta NAV y la clase MENU hacen lo mismo en este caso NAV queda ultimo asi que aplica ultimo o sea que la clase MENU no aplica a nada y habria que borrarla */ 
+/* Vean lo siguiente la etiqueta NAV y la clase MENU hacen lo mismo en este caso NAV queda ultimo asi que aplica ultimo o sea que la clase MENU no aplica a nada y habria que borrarla */
 .ellogo img {
-   display: flex;
-   flex-direction: column;
-   place-content: center;
-   position: absolute;
-   height: 5;
-   width: 10;
-  }
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  position: absolute;
+  height: 5;
+  width: 10;
+}
 
-.ellogo{
+.ellogo {
   display: flex;
   height: 170px;
   justify-content: center;
   align-items: center;
 }
-
 
 /*navegacion */
 nav ul {
@@ -106,14 +105,14 @@ img {
 .h2 {
   font-size: 30px;
   margin-top: 70px;
-  color:#c6d312;
-  }
+  color: #c6d312;
+}
 .NuestrosCursos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
   margin: 35px 35px;
-  }
+}
 .NuestrosCursos img {
   width: 90%;
   height: 180px;
@@ -124,7 +123,7 @@ img {
   font-size: 30px;
   margin: 10px 0;
   padding-left: 10px;
-  color:#000000;
+  color: #000000;
 }
 
 .NuestrosCursos li {
@@ -139,7 +138,7 @@ img {
   color: #000000;
 }
 /* compras un....*/
- .ComprasUn {
+.ComprasUn {
   width: 100%;
   height: 300px;
   background-color: #3c92a6;
@@ -151,28 +150,28 @@ img {
   padding-bottom: 50px;
   margin-bottom: 20px;
   color: #fff;
- }
- 
- button {
- cursor: pointer;
- display: inline-block;
- border: 0;
- font-weight: bold;
- padding: 10px 20px;
- background: #c6d312;
- color: #fff;
- font-size: 15px;
- border: 1px solid #fff;
 }
-/* Comentado por Ale: ahi le quite el punto a button, asi que ahora va a tener efecto el hover */
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #c6d312;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #fff;
+}
 
 button:hover {
+  background-color:green;
   flood-opacity: 0.9;
-} 
-/*no veo que cambie > No cambia porque es una etiqueta de html y no una clase. El punto antes del nombre indica que button es una clase, si le sacas el punto funciona. No lo cambio asi lo ves. Ale le saque el punto pero no veo que cambie */
+  
+}
 
 .ComprasUn h2 h3 {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .ComprasUn button {
@@ -183,45 +182,44 @@ h4 {
   font-size: 30px;
   color: #c6d312;
 }
-.porqueElegirnos{
+.porqueElegirnos {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 25px;
   margin: 70px 0;
-  }
+}
 
 .porqueElegirnos img {
   width: 90%;
-  height: 100px
+  height: 100px;
 }
 
 /* Fin de Mariana*/
 /*Comienzan Estilos Cynthia*/
-.alumnos{
+.alumnos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   align-items: start;
 }
- 
-.cuentanNuestrosAlumnos{
+
+.cuentanNuestrosAlumnos {
   width: 75%;
-  
 }
 
-h5 { 
+h5 {
   text-align: center;
   padding: 50px;
 }
-.btn-cyn{
-  border-color: #405B73;
-  background-color: #405B73;
+.btn-cyn {
+  border-color: #405b73;
+  background-color: #405b73;
   border-radius: 10px; /* Define el radio de los bordes */
   padding: 10px 20px; /* Define el espacio interno del botón */
   color: white; /* Define el color del texto del botón */
   border: none; /* Elimina el borde del botón */
   cursor: pointer;
 }
- 
+
 footer a i {
   padding: 30px;
   margin: 30px;
@@ -246,9 +244,9 @@ footer a i {
   margin: 5%;
   padding: 2% 5% 2% 5%;
   background-color: #ececec7a;
-  border:1px solid #8f8f8f69;
+  border: 1px solid #8f8f8f69;
   border-radius: 5px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1rem;
   font-weight: 300;
 }
@@ -256,30 +254,30 @@ footer a i {
   text-align: center;
 }
 .pasos label {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
 }
 .pasos input {
-  border:1px solid #8f8f8f69;
+  border: 1px solid #8f8f8f69;
   border-radius: 5px;
   padding: 0.5% 0.5% 0.5% 0.5%;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.1rem;
   font-weight: 200;
 }
 input:valid {
-  color:green;
-  border-color:green;
+  color: green;
+  border-color: green;
 }
 input:invalid {
-  color:red;
-  border-color:red;
+  color: red;
+  border-color: red;
 }
 .inputfield {
   display: flex;
   flex-direction: column;
-  margin-top:0;
+  margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
 }
@@ -292,46 +290,46 @@ input:invalid {
   font-weight: 400;
 }
 .form-check img {
-  width:25%
+  width: 25%;
 }
-input[type='radio']:valid {
-  color:green;
-  border-color:green;
+input[type="radio"]:valid {
+  color: green;
+  border-color: green;
 }
-input[type='radio']:invalid {
-  color:red;
-  border-color:red;
+input[type="radio"]:invalid {
+  color: red;
+  border-color: red;
 }
 
-input[type='radio'] + label {
+input[type="radio"] + label {
   background-color: #dfdfdf88;
   border: 1px solid #8f8f8f69;
   border-radius: 5px;
   text-align: center;
   padding: 10% 0 8% 0;
 }
-input[type='radio'] + label:hover {
+input[type="radio"] + label:hover {
   background-color: #bbbbbb88;
 }
-input[type='radio']:checked + label {
+input[type="radio"]:checked + label {
   background-color: #bbbbbbc5;
 }
 /* Botones de Navegación del formulario */
 .navform {
-  justify-content:space-around;
+  justify-content: space-around;
 }
 .navform button {
   margin: 1.5% 0 1.5% 0;
   padding: 0.5% 0.5% 0.5% 0.5%;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   text-transform: uppercase;
-  border:1px solid #8f8f8f69;
+  border: 1px solid #8f8f8f69;
   border-radius: 5px;
   background-color: #969696;
-  color:#FFFFFF;
-  width:40%;
+  color: #ffffff;
+  width: 40%;
 }
 .navform button:hover {
   background-color: #707070;
@@ -340,15 +338,15 @@ input[type='radio']:checked + label {
   display: block;
   padding: 0.5% 5% 1% 5%;
   margin: 0 auto;
-  border:1px solid #8f8f8f69;
+  border: 1px solid #8f8f8f69;
   border-radius: 5px;
-  background-color: #969696;;
-  color:#FFFFFF;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #969696;
+  color: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.1rem;
   font-weight: 200;
 }
 .respuesta {
-  font-size:1.1rem;
+  font-size: 1.1rem;
 }
 /*fin de estilo de formulario*/
