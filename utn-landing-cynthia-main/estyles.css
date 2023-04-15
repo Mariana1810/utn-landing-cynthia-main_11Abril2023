@@ -150,7 +150,7 @@ img {
   margin-bottom: 20px;
   color: #fff;
  }
-button {
+ button {
  cursor: pointer;
  display: inline-block;
  border: 0;
@@ -162,9 +162,11 @@ button {
  border: 1px solid #fff;
 }
 /* Comentado por Ale: ahi le quite el punto a button, asi que ahora va a tener efecto el hover */
+
 button:hover {
-  flood-opacity: 0,5;
-} /*no veo que cambie > No cambia porque es una etiqueta de html y no una clase. El punto antes del nombre indica que button es una clase, si le sacas el punto funciona. No lo cambio asi lo ves */
+  flood-opacity: 0.9;
+} 
+/*no veo que cambie > No cambia porque es una etiqueta de html y no una clase. El punto antes del nombre indica que button es una clase, si le sacas el punto funciona. No lo cambio asi lo ves. Ale le saque el punto pero no veo que cambie */
 
 .ComprasUn h2 h3 {
 margin-bottom: 20px;
