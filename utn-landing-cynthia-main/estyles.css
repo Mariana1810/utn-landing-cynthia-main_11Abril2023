@@ -23,11 +23,11 @@ body {
    flex-direction: column;
    place-content: center;
    position: absolute;
-   height: 5;
-   width: 10;
+   width: 210px;
+  height: 210px;
   }
 
-.ellogo{
+.ellogo {
   display: flex;
   height: 170px;
   justify-content: center;
@@ -62,46 +62,36 @@ nav li:hover {
 }
 /** FIN ESTILOS MENU **/
 
-.enunciado {
+.QueresAprenderAProgramar {
   text-align: center;
   padding: 40px;
 }
-/* Comentado por Ale: hay que tratar de no poner etiquetas muy generales porque sino pueden 
-* afectar el codigo de otras personas. Por ejemplo si es la imagen que esta dentro de algun div con clase se puede poner .clase img y solo aplica las imagenes dentro de ese DIV como por ejemplo en la linea 125 */
-img {
-  /*le doy tamaño a la imagen */
-  width: 190px;
-  height: 190px;
-  /*borde redondo */
-  /* border-radius: 50%; */
-}
-.h1 {
+
+
+h1 {
   display: flex;
   justify-content: center; /* Centra horizontalmente */
   align-items: center; /* Centra verticalmente */
-  width: 300px; /* Ancho de la caja */
-  height: 200px; /* Alto de la caja */
-  border: 1px solid black; /* Borde para la caja */
-  padding: 20px; /* Espaciado interno de la caja */
-}
-.secciones {
-  /*aca centro y separo los elementos */
+  font-size: 28px;
+  }
+
+/* .secciones {
+  aca centro y separo los elementos 
   display: flex;
   align-items: center;
   padding: 40px;
 }
 .menu-secundario {
-  /* */
   width: 100%;
   margin-top: 100px;
 }
 .menu-secundario {
-  /* */
   display: block;
   text-align: center;
   color: black;
   margin-bottom: 20px;
-}
+} */
+
 /*Aca empiezan estilos de Mariana desde: NuestrosCursos*/
 .h2 {
   font-size: 30px;
@@ -175,8 +165,64 @@ margin-bottom: 20px;
 }
 
 .ComprasUn button {
-  margin-bottom: 10px;
-}
+
+    margin: 10px;
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: #f39200;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  button:hover {
+    color: black;
+  }
+  button span {
+    position: absolute;
+    background: #fff;
+    transition: 0.5s;
+  }
+  button span:nth-child(1) {
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: -100%;
+  }
+  button span:nth-child(2) {
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    right: -100%;
+  }
+  button span:nth-child(3) {
+    width: 1px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+  }
+  button span:nth-child(4) {
+    width: 1px;
+    height: 100%;
+    bottom: -100%;
+    right: 0;
+  }
+  button:hover span:nth-child(1) {
+    left: 0;
+  }
+  button:hover span:nth-child(2) {
+    right: 0;
+  }
+  button:hover span:nth-child(3) {
+    bottom: 0;
+  }
+  button:hover span:nth-child(4) {
+    top: 0;
+  }
+
+
 /*Aca empieza estilos de Mariana para: Porque elegirnos*/
 h4 {
   font-size: 30px;
@@ -195,6 +241,8 @@ h4 {
 }
 
 /* Fin de Mariana*/
+
+
 /*Comienzan Estilos Cynthia*/
 .alumnos{
   display: grid;
