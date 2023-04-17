@@ -265,18 +265,24 @@ h5 {
   border: none; /* Elimina el borde del botón */
   cursor: pointer;
 }
-.DiseñoSinTítulo.mp4 {
-  width: 100%;
+.Mi-video {
+  width: 10px;
   height: auto;
   background-color: #000;
 }
-
-.DiseñoSinTítulo.mp4::-webkit-media-controls {
+.video.Mi-video.mp4::-webkit-media-controls {
   display: none !important;
 }
 
-.DiseñoSinTítulo.mp4::-webkit-media-controls-enclosure {
+video.Mi-video.mp4.mp4::-webkit-media-controls-enclosure {
   display: none !important;
+}
+.video.Mi-video.mp4.mp4 {
+  width: 10px;
+  height: 5px;
+  background-color: #000;
+  display: block;
+  margin: 0 auto;
 }
 /*Terminan estilos de Cynthia*/
 /* ESTILOS MENU *
