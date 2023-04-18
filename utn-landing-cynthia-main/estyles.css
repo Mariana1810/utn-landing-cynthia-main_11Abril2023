@@ -41,6 +41,8 @@ nav ul {
   width: 100%;
   list-style-type: none;
   text-align: center;
+  margin:0;
+  padding:0;
 }
 nav li {
   /*pone (li)una al lado de otra */
@@ -58,6 +60,11 @@ nav li:hover {
   background-color: #c6d312;
 }
 /** FIN ESTILOS MENU **/
+
+.carousel-inner img {
+  height: 80vh;
+}	
+
 
 .QueresAprenderAProgramar {
   text-align: center;
