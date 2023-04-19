@@ -279,6 +279,7 @@ h5 {
   align-items: center;
   margin-top: 20%;
   
+  
 }
 /*.video.Mi-video.mp4::-webkit-media-controls {
   display: none !important;
@@ -513,4 +514,107 @@ footer a i {
   color: red;
   transition: all 10s ease;
 }
+/* Comienza Formulario Newsletter de Cynthia*/
+.join{
+  font-size: 48px;
+  font-family: Arial;
+  color: #fff; 
+  background-color: #405B73; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-sizing: 50px;
+  }
+  .doslineas{
+    text-size-adjust: 50px;
+  }
+  
+  
+  .box {
+      width: 350px;
+      height: 150px;
+      margin: 10px;
+      padding: 25px;
+      border: 5px solid black;
+    }
+        
+      
+  
+  
+  
+  form {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    
+    .quiero{
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+
+    }
+    
+    .contenedor {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+    
+    .cajita {
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 0.25rem;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .cajaNews {
+      font-size: 1.5rem;
+      color: #405B73;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    
+    .form-group {
+      margin: 1rem 0;
+    }
+    
+    label {
+      display: block;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      text-align: left;
+    }
+    
+    input[type="email"] {
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border-radius: 0.25rem;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+      width: 100%;
+      max-width: 400px;
+    }
+    
+    button[type="submit"] {
+      background-color:#405B73 ;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 0.25rem;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      background-color:#405B73 ;
+      
+
+    }
+    
+    button[type="submit"]:hover {
+      background-color:#405B73 ;
+    }
+
+/** Final del Formulario de Cynthia**/
 
