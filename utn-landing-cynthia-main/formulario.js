@@ -31,7 +31,7 @@ function navegador(n) {
   // Se crea un array igual que en la función anterior.
   // El evento onclick del html suma o resta 1 al paso actual.
   let x = document.getElementsByClassName("pasos");
-  validarFormulario();
+  if (n == 1 && !validarFormulario()) return false;
   x[paso].style.display = "none";
   paso = paso + n;
   // Verifica que es el ultimo paso y envia el formulario.
@@ -44,6 +44,25 @@ function navegador(n) {
 
 function validarFormulario() {
   console.log("Validar Formulario");
+    // This function deals with validation of the form fields
+    var x, y, i, valid = true;
+    x = document.getElementsByClassName("pasos");
+    y = x[paso].getElementsByTagName("input");
+    // A loop that checks every input field in the current tab:
+    for (i = 0; i < y.length; i++) {
+      // If a field is empty...
+      if (y[i].value == "") {
+        // add an "invalid" class to the field:
+        y[i].className += " invalid";
+        // and set the current valid status to false:
+        valid = false;
+      }
+    }
+    // If the valid status is true, mark the step as finished and valid:
+    if (valid) {
+      document.getElementsByClassName("pasos")[paso].className += " finish";
+    }
+    return valid; // return the valid status
 }
 
 function enviarDatos() {
