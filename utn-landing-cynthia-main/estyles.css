@@ -258,7 +258,76 @@ margin: 15px 0 15px 0;
   border: none; /* Elimina el borde del botón */
   cursor: pointer;
 }
+<<<<<<< HEAD
 .btn-cyn:hover {
+=======
+.mivideo {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20%;
+  
+  
+}
+/*.video.Mi-video.mp4::-webkit-media-controls {
+  display: none !important;
+}
+
+video.Mi-video.mp4.mp4::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+.video.Mi-video.mp4.mp4 {
+  width: 10px;
+  height: 5px;
+  background-color: #000;
+  display: block;
+  margin: 0 auto;
+}*/
+/*Terminan estilos de Cynthia*/
+/* ESTILOS MENU *
+/* Comentado por Ale. */
+/* Vean lo siguiente la etiqueta NAV y la clase MENU hacen lo mismo en este caso NAV queda ultimo asi que aplica ultimo o sea que la clase MENU no aplica a nada y habria que borrarla */
+.ellogo img {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  position: absolute;
+  height: 5;
+  width: 10;
+}
+
+.ellogo {
+  display: flex;
+  height: 170px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*navegacion */
+nav ul {
+  /*color 100%pantalla  */
+  background-color: #3c92a6;
+  /* box-sadow hace sombra; */
+  box-shadow: 2px 10px 20px rgba(32, 33, 33, 0.923);
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+}
+nav li {
+  /*pone (li)una al lado de otra */
+  display: inline-flex;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  /*(width)separacion de (menu) */
+  width: 50px;
+}
+/*(nav li hover)cuando pasa el cursor sobre menu cambia color */
+nav li:hover {
+>>>>>>> 7469450e8f5d85beb52b655538d6e8b97149e151
   background-color: #c6d312;
   color: black;
 }
@@ -394,4 +463,107 @@ footer a i {
   color: red;
   transition: all 10s ease;
 }
+/* Comienza Formulario Newsletter de Cynthia*/
+.join{
+  font-size: 48px;
+  font-family: Arial;
+  color: #fff; 
+  background-color: #405B73; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-sizing: 50px;
+  }
+  .doslineas{
+    text-size-adjust: 50px;
+  }
+  
+  
+  .box {
+      width: 350px;
+      height: 150px;
+      margin: 10px;
+      padding: 25px;
+      border: 5px solid black;
+    }
+        
+      
+  
+  
+  
+  form {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    
+    .quiero{
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+
+    }
+    
+    .contenedor {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+    
+    .cajita {
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 0.25rem;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .cajaNews {
+      font-size: 1.5rem;
+      color: #405B73;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    
+    .form-group {
+      margin: 1rem 0;
+    }
+    
+    label {
+      display: block;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      text-align: left;
+    }
+    
+    input[type="email"] {
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border-radius: 0.25rem;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+      width: 100%;
+      max-width: 400px;
+    }
+    
+    button[type="submit"] {
+      background-color:#405B73 ;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 0.25rem;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      background-color:#405B73 ;
+      
+
+    }
+    
+    button[type="submit"]:hover {
+      background-color:#405B73 ;
+    }
+
+/** Final del Formulario de Cynthia**/
 
